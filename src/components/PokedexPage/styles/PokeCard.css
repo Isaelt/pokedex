@@ -1,0 +1,179 @@
+.pokecard{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 0.7em;
+    border: 0.7em solid #999;
+    cursor: pointer;
+    transition: transform 200ms ease;
+}
+
+.pokecard:hover {
+    transform: scale(1.03);
+}
+
+.pokecard__header{
+    background-color: #999;
+    aspect-ratio: 2;
+    position: relative;
+}
+
+.pokecard__image{
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1.5em;
+}
+
+.pokecard__body{
+    padding: 3.5em 1em 2em;
+}
+
+.pokecard__name{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 0.2em;
+}
+
+.pokecard__types{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.pokecard__typename{
+    text-transform: capitalize;
+}
+
+.pokecard__typename:nth-child(2)::before {
+    content: '/';
+    padding-right: 0.7em;
+}
+
+.pokecard__hr{
+    margin-bottom: 1em;
+    border: 1px solid #ccc4;
+}
+
+.pokecard__stats{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 1.5em 0.2em;
+}
+
+.pokecard__stat{
+    display: grid;
+    gap: 0.5em;
+    justify-items: center;
+}
+
+.pokecard__stat__name{
+    font-size: 0.7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.pokecard__stat__value{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.fire-gradiant{
+    background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+ 
+}
+
+.water-gradiant{
+    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+
+}
+
+.grass-gradiant{
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+
+}
+
+.normal-gradiant{
+    background: linear-gradient(181.51deg, #735259 -6.44%, #BC6B7C 121.95%, #7C3F4C 186.11%);
+
+}
+
+.poison-gradiant{
+    background: linear-gradient(177.03deg, #5B3184 -11.97%, #A564E3 71.28%, #CE9BFF 135.64%);
+}
+
+.electric-gradiant{
+    background: linear-gradient(179.75deg, #0C1395 -19.96%, #2B319B 43.67%, #7075D9 138.4%);
+
+}
+
+.ground-gradiant{
+    background: linear-gradient(179.75deg, #654008 -19.96%, #895C1A 43.67%, #D69638 138.4%);
+}
+
+.fairy-gradiant{
+    background: linear-gradient(179.75deg, #971B45 -19.96%, #C23867 43.67%, #CD7D98 138.4%);
+}
+
+.bug-gradiant{
+    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+
+}
+
+.fighting-gradiant{
+    background: linear-gradient(176.83deg, #96402A -8.78%, #F1613C 169.09%, #CB735D 242.33%);
+}
+
+.rock-gradiant{
+    background: linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%);
+
+}
+
+.ghost-gradiant{
+    background: linear-gradient(177.03deg, #323569 -11.97%, #454AA8 57.49%, #787DDA 135.64%);
+}
+
+.psychic-gradiant{
+    background: linear-gradient(179.75deg, #5E736C -19.96%, #728881 43.67%, #A8A8A8 138.4%);
+}
+
+.normal-border{
+    border-color: #735259da;
+}
+.poison-border{
+    border-color: #5b3184d5;
+}
+.electric-border{
+    border-color:#0c1395bc ;
+}
+.ground-border{
+    border-color: #654008c3;
+}
+.fairy-border{
+    border-color:#971b44cb;
+}
+.fire-border{
+    border-color: #e35825d4;
+}
+.grass-border{
+    border-color: #7ec6c5b3;
+}
+.bug-border{
+    border-color:  #2ca82ab8 ;
+}
+.water-border{
+    border-color: #0d448ccc ;
+}
+.fighting-border{
+    border-color: #96402ad9;
+}
+.psychic-border{
+    border-color: #5e736cda;
+}
+.ghost-border{
+    border-color: #454aa8e5 ;
+}

@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom"
 import useFetch from "../hooks/useFetch"
 import { useEffect } from "react"
-import '../components/PokedexPage/styles/PokeIdPage.css'
+import '../components/PokedexPage/styles/PokeidPage.css'
 import '../components/PokedexPage/styles/PokeCard.css'
 
 const PokeIdPage = () => {

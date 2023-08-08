@@ -14,7 +14,7 @@ const PokedexPage = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 10;
 
-  const url = 'https://pokeapi.co/api/v2/pokemon?offset=20&limit=100'
+  const url = 'https://pokeapi.co/api/v2/pokemon?offset=0&limit=100'
   const [pokemons, getAllPokemons, getPokemonsByType ] = useFetch(url)
 
   useEffect(() => {
